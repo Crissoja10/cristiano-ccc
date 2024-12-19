@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evolução da BMW - Jornal Mural</title>
+  <style>
+    /* Estilos globais */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #40282A;
+      color: #F2C335;
+      margin: 0;
+      padding: 0;
+    }
+    h1, h2, h3 {
+      text-align: center;
+      color: #F2D335;
+    }
+    h1 {
+      margin-top: 20px;
+    }
+    p {
+      line-height: 1.6;
+      margin: 0 0 10px;
+    }
+
+    /* Estilos para o menu */
+    nav {
+      background-color: #D98B48;
+      padding: 10px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #F2C335;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: #F2C335;
+    }
+
+    /* Estilos para as seções */
+    section {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #F2C335;
+      color: #40282A;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+    section:hover {
+      transform: scale(1.02);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+    section img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+
+    /* Introdução */
+    .intro {
+      max-width: 900px;
+      margin: 20px auto;
+      text-align: center;
+      padding: 20px;
+      background-color: #D98B48;
+      color: #F2D335;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Botões */
+    .button-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+    button {
+      padding: 10px 15px;
+      font-size: 16px;
+      margin-right: 10px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      color: #40282A;
+      background-color: #F2D335;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+    button:hover {
+      background-color: #F2D335;
+      transform: translateY(-3px);
+    }
+  </style>
+</head>
+<body>
+  <!-- Cabeçalho e Navegação -->
+  <header>
+    <h1>Evolução da BMW</h1>
+    <nav>
+      <ul>
+        <li><a href="#intro">Início</a></li>
+        <li><a href="#e30">BMW E30</a></li>
+        <li><a href="#e39">BMW M5 E39</a></li>
+        <li><a href="#f10">BMW M5 F10</a></li>
+        <li><a href="#i8">BMW i8</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Introdução -->
+  <section class="intro" id="intro">
+    <h2>Bem-vindo ao Jornal Mural da BMW</h2>
+    <p>A BMW é uma das marcas automotivas mais icônicas do mundo, conhecida pelo seu compromisso com desempenho, luxo e inovação tecnológica. Desde a sua fundação em 1916, a empresa se destacou como símbolo de engenharia de ponta, paixão por dirigir e design visionário.</p>
+
+  </section>
+
+  <!-- Seções dos Modelos -->
+  <section id="e30">
+    <h2>BMW 3 Series E30 (1982)</h2>
+    <p>O BMW E30 é um marco na história automotiva. Com design clássico, desempenho confiável e dirigibilidade ágil, tornou-se um ícone da década de 80. O E30 também marcou a introdução do primeiro BMW M3, um modelo esportivo de alta performance que definiu a categoria.</p>
+    <img src="serie 3.jpeg" alt="BMW E30">
+  </section>
+
+  <section id="e39">
+    <h2>BMW M5 E39 (1998)</h2>
+    <p>O M5 E39 é considerado por muitos entusiastas como o ápice da engenharia BMW. Equipado com um motor V8 naturalmente aspirado e uma transmissão manual de 6 velocidades, ele combina luxo e esportividade como poucos sedans de sua época.</p>
+    <img src="m5 e39.jpg" alt="BMW M5 E39">
+  </section>
+
+  <section id="f10">
+    <h2>BMW M5 F10 (2011)</h2>
+    <p>O F10 representa um marco na história do M5. Com um motor V8 biturbo de 560 cavalos, o F10 trouxe tecnologia de ponta, como suspensão adaptativa e modos de condução personalizáveis. Ele é um dos sedans esportivos mais amados pelos fãs da BMW, combinando conforto e desempenho extremos.</p>
+    <img src="bmw-m5-v-f10-2011-2016-sedan-exterior.jpg" alt="BMW M5 F10">
+  </section>
+
+  <section id="i8">
+    <h2>BMW i8 (2014)</h2>
+    <p>O BMW i8 é um dos carros mais revolucionários da marca. Este híbrido plug-in combina um motor elétrico com um motor a combustão para oferecer desempenho esportivo com eficiência ambiental. Seu design futurista e tecnologia avançada o tornam um marco na era moderna da BMW.</p>
+    <img src="carpixel.net-2014-bmw-i8-84618-hd.jpg" alt="BMW i8">
+  </section>
+
+  <!-- Botões de Navegação -->
+  <div class="button-container">
+    <button onclick="window.location='#e30'">BMW E30</button>
+    <button onclick="window.location='#e39'">BMW M5 E39</button>
+    <button onclick="window.location='#f10'">BMW M5 F10</button>
+    <button onclick="window.location='#i8'">BMW i8</button>
+  </div>
+</body>
+</html>
